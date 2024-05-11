@@ -11,11 +11,7 @@ function WithMouse(Component: FunctionComponent<Props>) {
     });
   };
 
-  return (
-    <div onMouseMove={handleMouseMove}>
-      <Component mouse={state} />
-    </div>
-  );
+  return <Component mouse={state} onMouseMove={handleMouseMove} />;
 }
 
 export default WithMouse;

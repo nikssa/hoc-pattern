@@ -1,0 +1,18 @@
+html,
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.mouse {
+  cursor: url('mouse.svg'), auto;
+}
+
+.cat {
+  background-image: url(cat.svg);
+  height: 128px;
+  width: 128px;
+  transition: all ease-in-out 0.15s;
+  transform: translate(-15px, -15px);
+}
